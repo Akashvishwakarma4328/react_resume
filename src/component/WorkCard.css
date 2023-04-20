@@ -1,0 +1,7 @@
+.card-body{
+    color: #c3abab !important;
+    background-color: #242323 !important;
+}
+.card{
+    --bs-card-bg: #242323 !important;
+}

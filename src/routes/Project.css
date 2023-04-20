@@ -1,0 +1,8 @@
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 8px;
+    align-items: first baseline;
+    justify-content: first baseline;
+}
