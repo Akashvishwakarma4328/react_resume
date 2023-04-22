@@ -9,8 +9,8 @@ const HeroImage = () => {
                 <img className='intro-img' src='https://images.unsplash.com/photo-1510936111840-65e151ad71bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1190&q=80' alt='Wait loading' />
             </div>
             <div className='Content'>
-                <p>Hi, I'm a Fresher</p>
-                <h1> React Developer .</h1>
+                <p>Hi, I am Akash Vishwakarma</p>
+                <h1> Full Stack Developer .</h1>
                 
                 <Link to='/Projects'>
                     <Button variant="warning"  >PROJECTS </Button>{''}
