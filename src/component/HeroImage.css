@@ -102,7 +102,7 @@ button, input, optgroup, select, textarea{
     }
 
 }
-@media screen and  (min-device-width: 820px) and (max-device-width:1120){
+@media screen and  (min-device-width: 820px) and (max-device-width:1000px){
     .hero .Content{
         position: relative;
         transform: translate(-45%,-200%);

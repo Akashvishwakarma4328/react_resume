@@ -7,8 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* background-color: black; */
   background: #242323 !important;
+  color: aliceblue !important;
 }
-
+.navbar-toggler {
+  
+  background-color: #6c6767 !important;
+  
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

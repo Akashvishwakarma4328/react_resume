@@ -20,6 +20,7 @@ function NavbarMenu() {
             >
               <Nav.Link href="/" style={{ color: 'white' }}>Home</Nav.Link>
               <Nav.Link href="/About" style={{ color: 'white' }}>About</Nav.Link>
+              <Nav.Link href="/Skills" style={{ color: 'white' }}>Skills</Nav.Link>
               <Nav.Link href="/Project" style={{ color: 'white' }}>Project</Nav.Link>
               <Nav.Link href="/Certificates" style={{ color: 'white' }}>Certificates</Nav.Link>
               <Nav.Link href="/Internship" style={{ color: 'white' }}>Internships</Nav.Link>

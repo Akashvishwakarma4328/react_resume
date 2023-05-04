@@ -1,7 +1,11 @@
 .card-body{
-    color: #c3abab !important;
+    color: white !important;
     background-color: #242323 !important;
 }
 .card{
     --bs-card-bg: #242323 !important;
+}
+.card-img, .card-img-top {
+    width: 302px;
+    height: 200px;
 }

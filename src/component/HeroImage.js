@@ -12,8 +12,8 @@ const HeroImage = () => {
                 <p>Hi, I am Akash Vishwakarma</p>
                 <h1> Full Stack Developer .</h1>
                 
-                <Link to='/Projects'>
-                    <Button variant="warning"  >PROJECTS </Button>{''}
+                <Link to='/Project'>
+                    <Button variant="warning" >PROJECTS </Button>{''}
                 </Link>
 
                 <Link to='/Contact'>
