@@ -3,8 +3,9 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
-
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './NavbarMenu.css';
 function NavbarMenu() {
   return (
     <>
@@ -18,13 +19,14 @@ function NavbarMenu() {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Nav.Link href="/" style={{ color: 'white' }}>Home</Nav.Link>
-              <Nav.Link href="/About" style={{ color: 'white' }}>About</Nav.Link>
-              <Nav.Link href="/Skills" style={{ color: 'white' }}>Skills</Nav.Link>
-              <Nav.Link href="/Project" style={{ color: 'white' }}>Project</Nav.Link>
-              <Nav.Link href="/Certificates" style={{ color: 'white' }}>Certificates</Nav.Link>
-              <Nav.Link href="/Internship" style={{ color: 'white' }}>Internships</Nav.Link>
-              <Nav.Link href="/Contact" style={{ color: 'white' }}>Contact</Nav.Link>
+
+              <Link to="/" style={{ color: 'white' }} className='navLink'>Home </Link>
+              <Link to="/About" style={{ color: 'white' }} className='navLink'>About</Link>
+              <Link to="/Skills" style={{ color: 'white' }} className='navLink'>Skills</Link>
+              <Link to="/Project" style={{ color: 'white' }} className='navLink'>Project</Link>
+              <Link to="/Certificates" style={{ color: 'white' }} className='navLink'>Certificates</Link>
+              {/* <Nav.Link href="/Internship" style={{ color: 'white' }}>Internships</Nav.Link> */}
+              <Link to="/Contact" style={{ color: 'white' }} className='navLink'>Contact</Link>
 
 
             </Nav>

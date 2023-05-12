@@ -1,10 +1,11 @@
 import React from 'react'
 import "./AboutImage.css";
 import profileImg from "../Assets/profileImg.jpg";
+import { Link } from 'react-router-dom';
 const AboutImage = () => {
     return (
         <div className='container-image'>
-            <img className='profileImage' src={profileImg}/>
+            <img className='profileImage' src={profileImg} />
             <div className='para'>
                 <p>
                     As an experienced full stack web developer, I have a strong background in both front-end and back-end development. I am proficient in a variety of programming languages, including HTML, CSS, JavaScript, Python, and SQL.<br></br> <br></br>
@@ -17,6 +18,11 @@ const AboutImage = () => {
 
                     Overall, I am a passionate and dedicated full stack web developer who is always eager to learn and stay up-to-date with the latest technologies and best practices in the field.
                 </p>
+                <button>
+                    <Link>
+
+                    </Link>
+                </button>
             </div>
 
         </div>

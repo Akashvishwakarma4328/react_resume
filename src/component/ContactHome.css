@@ -1,0 +1,34 @@
+.form {
+    display: flex;
+    height: 60%;
+    width: 60%;
+    margin: auto;
+}
+
+.form input {
+    display: flex;
+    background-color: transparent;
+    font-size: 1.2rem;
+    margin: 1rem;
+
+}
+
+.form textarea {
+    display: flex;
+    background-color: transparent;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+.form label {
+    display: inline-block;
+}
+
+.form button {
+    display: flex;
+    background-color: rgb(55, 55, 58);
+    color: aliceblue;
+    padding: 0.2rem;
+    margin: auto;
+
+}

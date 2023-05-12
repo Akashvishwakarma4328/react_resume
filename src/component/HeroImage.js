@@ -11,7 +11,7 @@ const HeroImage = () => {
             <div className='Content'>
                 <p>Hi, I am Akash Vishwakarma</p>
                 <h1> Full Stack Developer .</h1>
-                
+
                 <Link to='/Project'>
                     <Button variant="warning" >PROJECTS </Button>{''}
                 </Link>
